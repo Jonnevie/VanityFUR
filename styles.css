@@ -35,8 +35,11 @@ html {
 a:hover {
     text-decoration: underline;
     transition-duration: 700ms;
-    /* transition-delay: 500ms; */
-    /* transition-timing-function: ease-in; */
+    color: black;
+    text-decoration: none;
+    transition-duration: ms;
+    transition-timing-function: ease-in;
+ 
 
 }
 
@@ -111,7 +114,7 @@ a:hover {
     /* justify-items: center; */
 }
 .card {
-    border: 2px solid lightgray;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     margin: 10px;
 }
 
@@ -175,11 +178,77 @@ a:hover {
 }
 
 .blackbutton:hover {
-    background-color: orange;
+    background-color: lightgray;
     text-decoration: none;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in;
 }
 
 
 .cards {
+
     margin-bottom: 20px;
+}
+
+.footer-foot {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+}
+
+.socialmedia {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    color: black;
+}
+
+.socialmedia a:hover{
+    color: grey;
+    text-decoration: none;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+
+
+.socialmedia a {
+    padding: 20px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+}
+.copyright {
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.copyright p {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-links{
+    background-color: lightgray;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    font-family: 'montserrat';
+    font-size: 1.1rem;
+    justify-content: center;
+    padding: 50px
+    
+}
+
+.footer-links a {
+    
+    padding: 30%;
+    text-decoration: none;
+    color: black;
+
+}
+
+.footer-links a:hover {
+    color: grey;
+    text-decoration: none;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
 }
