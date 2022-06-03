@@ -21,7 +21,7 @@ html {
 
 .desktop-navigation h1 {
     padding-left: 30px;
-    padding-top: 20px;
+    padding-top: 30px;
     font-weight: bold;
     font-size: 3rem;
 }
@@ -67,6 +67,7 @@ a:hover {
 
 .dogwalk-text span{
     text-decoration: line-through;
+    font-style: italic;
 }
 
 .pupparatzi-text {
@@ -149,10 +150,6 @@ a:hover {
 }
 
 
-/* .card3 {
-    border: 2px solid lightgray;
-    margin: 5px;
-} */
 
 .imagecard3 {
     display: flex;
@@ -186,7 +183,6 @@ a:hover {
 
 
 .cards {
-
     margin-bottom: 20px;
 }
 
@@ -216,6 +212,7 @@ a:hover {
     text-decoration: none;
     color: black;
 }
+
 .copyright {
     padding-right: 20px;
     padding-bottom: 20px;
@@ -230,7 +227,6 @@ a:hover {
     background-color: lightgray;
     text-align: center;
     display: flex;
-    flex-wrap: nowrap;
     font-family: 'montserrat';
     font-size: 1.1rem;
     justify-content: center;
@@ -239,16 +235,25 @@ a:hover {
 }
 
 .footer-links a {
-    
-    padding: 30%;
+    /* padding: 30%; */
     text-decoration: none;
     color: black;
-
+    margin: 5% 0;
 }
 
-.footer-links a:hover {
-    color: grey;
+
+.linkrow {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    margin: 0 7%;
+}
+.linkrow a{
+
+
+}
+.linkrow a:hover {
+    color: white;
     text-decoration: none;
-    transition-duration: 300ms;
-    transition-timing-function: ease-in-out;
-}
+    transition-duration: 200ms;
+    /* transition-timing-function: ease-in-out; */
