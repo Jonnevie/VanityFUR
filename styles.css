@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'montserrat';
+}
+
+.desktop-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    height: 50px;
+    /* position: sticky;
+    top: 0; */
+}
+
+.desktop-navigation h1 {
+    padding-left: 30px;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.navlinks a {
+    padding: 25px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+}
+
+a:hover {
+    text-decoration: underline;
+    transition-duration: 700ms;
+    /* transition-delay: 500ms; */
+    /* transition-timing-function: ease-in; */
+
+}
+
+
+
+.main__hero {
+    background-image: url('./images/Dog-Fashion-Website/Resource/image.jpeg');
+    background-size: cover;
+    height: 600px;
+    position: relative;
+    top: -50px;
+    z-index: -3;
+    display: flex;   
+    justify-content: space-between;
+    align-items: center;
+}
+.dogwalk-text {
+
+    font-size: 2.5rem;
+    /* float: left; */
+    color: white;
+    margin-left: 50px;
+ 
+}
+
+.dogwalk-text span{
+    text-decoration: line-through;
+}
+
+.pupparatzi-text {
+    color: white;
+    position: relative;
+    top: 200px;
+    padding-right:4%;
+    
+}
+
+.pupparatzi-text p{
+    color: white;
+    padding-top: 2%;
+    font-style: italic;
+    text-align: right;
+}
+
+
+
+.ultimutt{
+    text-align: center;
+    
+}
+
+.pupparatzi-text h3 {
+    font-family: 'montserrat';
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: right;
+
+}
+.ultimutt p {
+    font-size: 1.5rem;
+    padding-bottom: 40px;
+}
+
+.ultimutt span {
+    font-size: 0.75rem;
+    font-style: italic;
+}
+
+.cards {
+    display: flex;
+    /* border: 1px solid red; */
+    /* justify-items: center; */
+}
+.card {
+    border: 2px solid lightgray;
+    margin: 10px;
+}
+
+.imagecard1 {
+    display: flex;
+    justify-content: center;
+}
+.imagecard1 img {
+    width: 80%;
+    padding-top: 9%;
+
+}
+
+.textcard h2, .textcard p{
+    text-align: center;
+    padding: 4%;
+}
+
+/* .card2 {
+    border: 1px solid green;
+    margin: 5px;
+
+} */
+
+.imagecard2 {
+    display: flex;
+    justify-content: center;
+}
+.imagecard2 img {
+    width: 80%;
+    padding-top: 9%;
+}
+
+
+/* .card3 {
+    border: 2px solid lightgray;
+    margin: 5px;
+} */
+
+.imagecard3 {
+    display: flex;
+    justify-content: center;
+}
+.imagecard3 img {
+    width: 80%;
+    padding-top: 9%;
+}
+
+.buttonbuynow {
+    display: flex;
+    justify-content: center;
+}
+
+.blackbutton {
+    background-color: black;
+    color: white;
+    padding: 4%;
+    border-radius: 5px;
+    margin: 5%;
+    text-decoration: none;
+}
+
+.blackbutton:hover {
+    background-color: orange;
+    text-decoration: none;
+}
+
+
+.cards {
+    margin-bottom: 20px;
+}
