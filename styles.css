@@ -109,14 +109,98 @@ a:hover {
     font-style: italic;
 }
 
+
+
+/* cards section */
+
+.card2 > .card-2wrapper {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
 .cards {
+   text-align: center;
+
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-areas: "pic1 pic2 pic3"
+    "text1 text2 text3"
+    "button1 button2 button";
+    row-gap: 15px;
+    justify-content: center;
+
+}
+
+.imagecard1 {
+    grid-area: pic1;
+}
+.imagecard1 img {
+    width: 90%;
+}
+
+.textcard1 {
+    grid-area: text1;
+    margin: 20px 10px;
+    height: 150px;
+
+}
+.buttonbuynow1 {
+    grid-area: button1;
+
+    align-self: flex-end;
+}
+
+.imagecard2 {
+    grid-area: pic2;
+
+}
+.imagecard2 img {
+    width: 90%;
+    
+
+}
+.textcard2 {
+    grid-area: text2;
+    margin: 20px 10px;
+
+    height: 150px;
+}
+
+.buttonbuynow2 {
+    grid-area: button2;
+
+
+}
+
+.imagecard3 {
+    grid-area: pic3;
+}
+.imagecard3 img {
+    width: 90%;
+}
+
+.textcard3 {
+    grid-area: text3;
+    margin: 20px 10px;
+    height: 150px;
+  
+}
+
+.buttonbuynow3 {
+    grid-area: button3;
+
+}
+/* .cards {
     display: flex;
-    /* border: 1px solid red; */
-    /* justify-items: center; */
+    border: 1px solid red;
+
+    justify-items: center;
 }
 .card {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    margin: 10px;
+    margin: 10px;    border: 1px solid red;
+    align-self: flex-end;
+
 }
 
 .imagecard1 {
@@ -132,6 +216,7 @@ a:hover {
 .textcard h2, .textcard p{
     text-align: center;
     padding: 4%;
+    
 }
 
 /* .card2 {
@@ -139,7 +224,7 @@ a:hover {
     margin: 5px;
 
 } */
-
+/* 
 .imagecard2 {
     display: flex;
     justify-content: center;
@@ -157,14 +242,20 @@ a:hover {
 }
 .imagecard3 img {
     width: 80%;
-    padding-top: 9%;
-}
+    padding-top: 9%; */
+} */
 
-.buttonbuynow {
+
+.cards {
+    margin-bottom: 20px;
+}
+/* .buttonbuynow {
     display: flex;
     justify-content: center;
+    align-content: flex-end;
+   
+} */
 
-}
 
 .blackbutton {
     background-color: black;
@@ -173,9 +264,7 @@ a:hover {
     border-radius: 5px;
     margin: 5%;
     text-decoration: none;
-
 }
-
 .blackbutton:hover {
     background-color: lightgray;
     text-decoration: none;
@@ -183,10 +272,7 @@ a:hover {
     transition-timing-function: ease-in;
 }
 
-
-.cards {
-    margin-bottom: 20px;
-}
+/*  */
 
 .footer-foot {
     display: flex;
@@ -285,7 +371,7 @@ a:hover {
 
 } */
 
-@media only screen and (min-width: 580px) and (max-width: 784px) {
+@media only screen and (min-width: 566px) and (max-width: 784px) {
     
     main {
         width: 
@@ -347,9 +433,127 @@ a:hover {
 
     .ultimutt {
         margin: 0 20%;
+        position: relative;
+        bottom: 20px;
     }
 }
 
-@media only screen and (min-width: 580px) and (max-width: 784px) {
+@media only screen and (min-width: 320px) and (max-width: 565px) {
+.main__hero h1{
+    color: white;
+    font-size: 2rem;
+    position: relative;
+    top: 80px;
+    background-color: black;
+    opacity: 70%;
+    width: %;
+}
+
+.dogwalk-text {
+    width: 100%;
+    position: relative;
+    right: 20px;
+}
+
+.navlinks {
+    display: none;
+}
+.main__hero {
+    background-size: 700px;
+    background-position: center;
+    height: 380px;
+    position: relative;
+    top: 3px;
+}
+
+
+.desktop-navigation h1 {
+    display: none;
+}
+.desktop-navigation {
+    display: none;
+}
+.pupparatzi-text {
+    display: none;
+}
+
+.ultimutt {
+    margin-top: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.mobile-navigation {
+    display: contents;
+
+}
+.cards {
+    display: block;
+}
+
+.textcard1 {
+    height: fit-content;
+    padding: 20px;
+}
+
+.buttonbuynow1 {
+    margin-bottom: 30px;
+}
+
+.imagecard2 img{
+    margin-top: 20px;
+}
+.textcard2 {
+    height: fit-content;
+    padding: 20px;
+}
+
+
+
+.card-2wrapper {
+
+    padding-bottom: 30px;
+}
+
+.imagecard3 {
+    margin-top: 20px;
+
+}
+.textcard3 {
+    height: fit-content;
+    padding: 20px;
+}
+
+.buttonbuynow3 {
+    margin-bottom: 30px;
+}
+
+.mobile-navigation h1 {
+    padding-left: 5px;
+
+}
+
+.navlinks-mobile {
+    display: block;
+    float: right;
+
+}
+
+.navlinks-mobile span {
+    height: px;
+    position: relative;
+    bottom: 55px;
+    color: black;
+    background-color: aqua;
+}
+.footer-foot {
+    display: block;
+    text-align: center;
+}
+
+.copyright {
+    display: block;
+    text-align: center;
+}
 
 }
