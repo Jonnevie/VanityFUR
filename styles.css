@@ -163,6 +163,7 @@ a:hover {
 .buttonbuynow {
     display: flex;
     justify-content: center;
+
 }
 
 .blackbutton {
@@ -172,6 +173,7 @@ a:hover {
     border-radius: 5px;
     margin: 5%;
     text-decoration: none;
+
 }
 
 .blackbutton:hover {
@@ -257,3 +259,97 @@ a:hover {
     text-decoration: none;
     transition-duration: 200ms;
     /* transition-timing-function: ease-in-out; */
+}
+
+.mobile-navigation, .navlinks-mobile {
+    display: none;
+}
+
+@media only screen and (min-width: 785px) and (max-width: 1000px) {
+    .pupparatzi-text {
+        color: white;
+        position: relative;
+        top: 200px;
+        padding-right:4%;
+        right: 500px;
+        text-align: left !important;
+    }
+}
+
+.mobile-navigation {
+    display: none;
+}
+
+/* .textcard {
+    font-size: 0.8rem;
+
+} */
+
+@media only screen and (min-width: 580px) and (max-width: 784px) {
+    
+    main {
+        width: 
+    }
+    .desktop-navigation {
+        display: none;   
+    }
+
+  
+    .logo-mobile {
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+   
+
+    .main__hero {
+        background-size: cover;
+        height: 450px;
+        background-position: center;
+        position: relative;
+        top: -90px;
+        
+    }
+
+    .dogwalk-text h1 {
+       font-size: 2.5rem;
+       position: relative;
+       top: 40px;
+
+    }
+    
+    .mobile-navigation {
+       display: contents;
+       display: flex;
+     
+    }
+
+    .pupparatzi-text h3, .pupparatzi-text p{
+        font-size: 15px;
+        position: relative;
+        bottom: 25px;
+    }
+
+    .navlinks-mobile {
+        display: contents;
+        display: flex;
+        justify-content: end;
+        position: relative;
+        bottom: 45px;
+        padding-right: 10px;
+    }
+
+    .navlinks-mobile a {
+        margin: 8px;
+        text-decoration: none;
+        color: white;
+    }
+
+    .ultimutt {
+        margin: 0 20%;
+    }
+}
+
+@media only screen and (min-width: 580px) and (max-width: 784px) {
+
+}
